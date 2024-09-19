@@ -45,7 +45,7 @@ table {
 }
 
 table, th, td {
-  border: 1px solid #ddd;
+  border: 1px solid #311242;
   padding: 8px;
 }
 
@@ -104,4 +104,31 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+/* estilos para el formulladorio de inicio de sesión */
+
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, #0077be, #3b8df2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+input[type="submit_sesion"] {
+  background-color: #0077be;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+input[type="submit_sesion"]:hover {
+  background-color: #2a7ce0;
+}
+
 
