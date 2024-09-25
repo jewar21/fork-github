@@ -37,6 +37,12 @@ section {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilo para corregir la ubicación del título del mapa */
+section h2:nth-of-type(2) {
+  margin-top: -25px;
+  margin-bottom: 20px;
+}
+
 /* Estilos para tablas */
 table {
   width: 100%;
@@ -67,11 +73,27 @@ video {
 
 /* Estilos para el formulario */
 form {
+  float: left;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 45%;
   max-width: 600px;
   margin: 20px 0;
+  margin-right: 10%;
+}
+
+/* Estilos para el mapa */
+iframe {
+  float: left;
+  width: 45%;
+  height: 300px;
+  border: 0;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 label {
